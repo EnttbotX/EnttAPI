@@ -1,0 +1,6 @@
+main: x.Entt.EnttAPI.EAPI
+name: EnttAPI
+version: 1.0.0
+author: Enttbot
+description: The Enttbot official dev-API.
+api-version: "1.13"
