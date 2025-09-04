@@ -1,6 +1,15 @@
 main: x.Entt.EnttAPI.EAPI
 name: EnttAPI
-version: 1.0.0
+version: 1.1.0
 author: Enttbot
 description: The Enttbot official dev-API.
 api-version: "1.13"
+
+commands:
+  eapi:
+    description: The main command of the EnttAPI.
+
+permissions:
+  eapi.op:
+    default: op
+    description: The only EAPI permission, used to use the commands
